@@ -1,6 +1,28 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
+    <Filter Include="Graf">
+      <UniqueIdentifier>{4c486b31-f065-41dd-b9dd-0be79ce273c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graf\Krawedzie">
+      <UniqueIdentifier>{2aacbbe6-dfc5-49a6-af8d-c7b3f69f5a97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graf\Krawedzie\Macierz">
+      <UniqueIdentifier>{9b2cf354-243d-416d-b77e-e94273f44e47}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Macierz.cpp">
+      <Filter>Graf\Krawedzie\Macierz</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Krawedzie.h">
+      <Filter>Graf\Krawedzie</Filter>
+    </ClInclude>
+    <ClInclude Include="Macierz.h">
+      <Filter>Graf\Krawedzie\Macierz</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
