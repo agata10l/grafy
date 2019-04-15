@@ -10,12 +10,16 @@
     <Filter Include="Graf\Krawedzie\Macierz">
       <UniqueIdentifier>{9b2cf354-243d-416d-b77e-e94273f44e47}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Graf\Krawedzie\Lista">
+      <UniqueIdentifier>{1bd2d0cb-891f-486c-9563-8162e24c3e7d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Macierz.cpp">
       <Filter>Graf\Krawedzie\Macierz</Filter>
     </ClCompile>
+    <ClCompile Include="Lista.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Krawedzie.h">
@@ -24,5 +28,10 @@
     <ClInclude Include="Macierz.h">
       <Filter>Graf\Krawedzie\Macierz</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Lista.h">
+      <Filter>Graf\Krawedzie\Lista</Filter>
+    </None>
   </ItemGroup>
 </Project>
