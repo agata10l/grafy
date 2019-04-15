@@ -14,7 +14,6 @@ Macierz::Macierz(unsigned ile_wierzcholkow)
 	stan_poczatkowy_macierzy();
 }
 
-
 Macierz::~Macierz()
 {
 	for (int i = 0; i < wierzcholki_; i++)

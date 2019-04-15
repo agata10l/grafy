@@ -4,10 +4,8 @@
 #include "Lista.h"
 int main()
 {
-	Krawedzie* krawedzie = new Lista(5);
-
-	krawedzie->dodaj_krawedz(3, 2, 4);
-
+	Krawedzie* krawedzie = new Macierz(5);
+	krawedzie->losuj_wagi(1);
 	krawedzie->wyswietl_wagi();
 
 	system("pause");

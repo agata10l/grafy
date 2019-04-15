@@ -13,6 +13,9 @@
     <Filter Include="Graf\Krawedzie\Lista">
       <UniqueIdentifier>{1bd2d0cb-891f-486c-9563-8162e24c3e7d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="RNG">
+      <UniqueIdentifier>{712e99fc-76f4-4891-a3cc-dba3e617247e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
@@ -20,6 +23,10 @@
       <Filter>Graf\Krawedzie\Macierz</Filter>
     </ClCompile>
     <ClCompile Include="Lista.cpp" />
+    <ClCompile Include="RNG.cpp">
+      <Filter>RNG</Filter>
+    </ClCompile>
+    <ClCompile Include="Krawedzie.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Krawedzie.h">
@@ -27,6 +34,9 @@
     </ClInclude>
     <ClInclude Include="Macierz.h">
       <Filter>Graf\Krawedzie\Macierz</Filter>
+    </ClInclude>
+    <ClInclude Include="RNG.h">
+      <Filter>RNG</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

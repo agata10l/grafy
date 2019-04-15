@@ -115,13 +115,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Krawedzie.cpp" />
     <ClCompile Include="Lista.cpp" />
     <ClCompile Include="Macierz.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="RNG.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Krawedzie.h" />
     <ClInclude Include="Macierz.h" />
+    <ClInclude Include="RNG.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Lista.h" />
