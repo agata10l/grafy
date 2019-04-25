@@ -3,5 +3,6 @@
 
 unsigned generuj()
 {
-	return rand();
+	return rand()%100;
 }
+

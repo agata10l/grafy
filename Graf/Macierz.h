@@ -18,4 +18,6 @@ private:
 	unsigned** macierz_;
 };
 
-#endif // !MACIERZ_H
+#endif 
+
+

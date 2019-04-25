@@ -115,6 +115,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Dijkstra.cpp" />
     <ClCompile Include="Krawedzie.cpp" />
     <ClCompile Include="Lista.cpp" />
     <ClCompile Include="Macierz.cpp" />
@@ -122,6 +123,7 @@
     <ClCompile Include="RNG.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Dijkstra.h" />
     <ClInclude Include="Krawedzie.h" />
     <ClInclude Include="Macierz.h" />
     <ClInclude Include="RNG.h" />

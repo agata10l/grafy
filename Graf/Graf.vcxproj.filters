@@ -27,6 +27,7 @@
       <Filter>RNG</Filter>
     </ClCompile>
     <ClCompile Include="Krawedzie.cpp" />
+    <ClCompile Include="Dijkstra.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Krawedzie.h">
@@ -37,6 +38,9 @@
     </ClInclude>
     <ClInclude Include="RNG.h">
       <Filter>RNG</Filter>
+    </ClInclude>
+    <ClInclude Include="Dijkstra.h">
+      <Filter>Graf</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

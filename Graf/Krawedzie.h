@@ -16,5 +16,6 @@ protected:
 	unsigned wierzcholki_;
 };
 
-#endif // ! KRAWEDZIE_H
+#endif 
+
 

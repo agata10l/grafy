@@ -1,4 +1,6 @@
-﻿  Krawedzie.cpp
-c:\users\agata\source\repos\agata10l\grafy\graf\krawedzie.cpp(8): warning C4244: "inicjowanie": konwersja z "double" do "unsigned int", możliwa utrata danych
-c:\users\agata\source\repos\agata10l\grafy\graf\krawedzie.cpp(12): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+﻿  Dijkstra.cpp
+c:\users\agata\source\repos\agata10l\grafy\graf\dijkstra.cpp(11): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+c:\users\agata\source\repos\agata10l\grafy\graf\dijkstra.cpp(17): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+c:\users\agata\source\repos\agata10l\grafy\graf\dijkstra.cpp(19): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+c:\users\agata\source\repos\agata10l\grafy\graf\dijkstra.cpp(31): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
   Graf.vcxproj -> C:\Users\Agata\source\repos\agata10l\grafy\x64\Debug\Graf.exe
