@@ -22,7 +22,7 @@ unsigned * Dijkstra(Krawedzie* krawedzie, unsigned wierz_startowy)
 			if (czy_odwiedzone[j] == false && min_odleglosc >= odleglosci[j]) 
 			{
 				min_odleglosc = odleglosci[j];
-				indeks_min_odleglosci = j;
+				indeks_min_odleglosci = i;
 			}
 		}
 		czy_odwiedzone[indeks_min_odleglosci] = true;

@@ -1,6 +1,8 @@
-﻿  Dijkstra.cpp
-c:\users\agata\source\repos\agata10l\grafy\graf\dijkstra.cpp(11): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
-c:\users\agata\source\repos\agata10l\grafy\graf\dijkstra.cpp(17): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
-c:\users\agata\source\repos\agata10l\grafy\graf\dijkstra.cpp(19): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
-c:\users\agata\source\repos\agata10l\grafy\graf\dijkstra.cpp(31): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+﻿  main.cpp
+c:\users\agata\source\repos\agata10l\grafy\graf\main.cpp(65): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+c:\users\agata\source\repos\agata10l\grafy\graf\main.cpp(77): warning C4244: "+=": konwersja z "_Rep" do "unsigned long", możliwa utrata danych
+          with
+          [
+              _Rep=__int64
+          ]
   Graf.vcxproj -> C:\Users\Agata\source\repos\agata10l\grafy\x64\Debug\Graf.exe
