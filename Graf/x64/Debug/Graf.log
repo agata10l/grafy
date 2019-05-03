@@ -1,8 +1,4 @@
-﻿  main.cpp
-c:\users\agata\source\repos\agata10l\grafy\graf\main.cpp(65): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
-c:\users\agata\source\repos\agata10l\grafy\graf\main.cpp(77): warning C4244: "+=": konwersja z "_Rep" do "unsigned long", możliwa utrata danych
-          with
-          [
-              _Rep=__int64
-          ]
+﻿  Krawedzie.cpp
+c:\users\agata\source\repos\agata10l\grafy\graf\krawedzie.cpp(14): warning C4244: "inicjowanie": konwersja z "double" do "unsigned int", możliwa utrata danych
+c:\users\agata\source\repos\agata10l\grafy\graf\krawedzie.cpp(18): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
   Graf.vcxproj -> C:\Users\Agata\source\repos\agata10l\grafy\x64\Debug\Graf.exe

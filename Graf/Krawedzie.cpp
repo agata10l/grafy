@@ -6,7 +6,7 @@
 
 unsigned Krawedzie::pobierz_ilosc_wierzcholkow() const
 {
-	return wierzcholki_ ;
+	return wierzcholki_;
 }
 
 void Krawedzie::losuj_wagi(double procent_mozliwych_wag)
@@ -50,7 +50,7 @@ unsigned Krawedzie::wczytaj_z_pliku(std::string nazwa_pliku)
 
 		dodaj_krawedz(wierz_pocz, wierz_koncowy, waga);
 	}
-	
+
 	plik.close();
 
 	return wierz_startowy;

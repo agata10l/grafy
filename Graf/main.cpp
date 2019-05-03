@@ -11,45 +11,25 @@ unsigned ILOSC_WIERZCHOLKOW[] = { 10, 50, 100, 500, 1000 };
 double PROCENT_WYPELNIENIA[] = { 0.25, 0.50, 0.75, 1 };
 unsigned ILOSC_TESTOW = 100;
 
-Krawedzie* wczytaj(string nazwa_pliku)
-{
-	std::fstream plik(nazwa_pliku, std::ios::in);
-
-	unsigned ilosc_krawedzi;
-	unsigned ilosc_wierzcholkow;
-	unsigned wierz_startowy;
-
-	plik >> ilosc_krawedzi >> ilosc_wierzcholkow >> wierz_startowy;
-	plik.close();
-
-	Krawedzie* krawedzie = new Macierz(ilosc_wierzcholkow);
-	krawedzie->wczytaj_z_pliku(nazwa_pliku);
-
-	return krawedzie;
-}
+//Krawedzie* wczytaj(string nazwa_pliku)
+//{
+//	std::fstream plik(nazwa_pliku, std::ios::in);
+//
+//	unsigned ilosc_krawedzi;
+//	unsigned ilosc_wierzcholkow;
+//	unsigned wierz_startowy;
+//
+//	plik >> ilosc_krawedzi >> ilosc_wierzcholkow >> wierz_startowy;
+//	plik.close();
+//
+//	Krawedzie* krawedzie = new Macierz(ilosc_wierzcholkow);
+//	krawedzie->wczytaj_z_pliku(nazwa_pliku);
+//
+//	return krawedzie;
+//}
 
 int main()
 {
-	unsigned wierz_start;
-	Krawedzie* krawedzie;
-	unsigned* wyniki2;
-
-	krawedzie = wczytaj("M.txt");
-	wierz_start = krawedzie->wczytaj_z_pliku("M.txt");
-
-	krawedzie->wyswietl_wagi();
-
-	wyniki2 = Dijkstra(krawedzie, wierz_start);
-
-	for(int i =0;i<5;i++)
-	{
-		cout << wyniki2[i] << " ";
-	}
-
-	system("pause");
-
-	return 0;
-
 	long unsigned czas[2];
 	fstream wyniki[2] = { fstream("macierz.txt", ios::out), fstream("lista.txt", ios::out) };
 
@@ -59,7 +39,7 @@ int main()
 
 		for (int j = 0; j < 4; j++)
 		{
-			cout << '\t' <<  PROCENT_WYPELNIENIA[j] << endl;
+			cout << '\t' << PROCENT_WYPELNIENIA[j] << endl;
 
 			czas[0] = czas[1] = 0;
 			for (int g = 0; g < ILOSC_TESTOW; g++)
@@ -71,7 +51,7 @@ int main()
 					krawedzie[k]->losuj_wagi(PROCENT_WYPELNIENIA[j]);
 
 					auto begin = std::chrono::high_resolution_clock::now();
-					delete Dijkstra(krawedzie[k],0);
+					delete Dijkstra(krawedzie[k], 0);
 					auto end = std::chrono::high_resolution_clock::now();
 
 					czas[k] += std::chrono::duration_cast<std::chrono::nanoseconds>(end - begin).count();
@@ -82,7 +62,7 @@ int main()
 			}
 			for (int g = 0; g < 2; g++)
 			{
-				wyniki[g] << ILOSC_WIERZCHOLKOW[i] << '\t' << PROCENT_WYPELNIENIA[j] << '\t' << czas[g] / ILOSC_TESTOW <<endl;
+				wyniki[g] << ILOSC_WIERZCHOLKOW[i] << '\t' << PROCENT_WYPELNIENIA[j] << '\t' << czas[g] / ILOSC_TESTOW << endl;
 			}
 		}
 	}

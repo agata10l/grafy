@@ -35,7 +35,7 @@ void Lista::dodaj_krawedz(unsigned od_wierzcholka, unsigned do_wierzcholka, unsi
 	}
 	else
 	{
-		while (pomocnicza->nastepny !=nullptr)
+		while (pomocnicza->nastepny != nullptr)
 		{
 			pomocnicza = pomocnicza->nastepny;
 		}
@@ -60,6 +60,8 @@ unsigned Lista::pobierz_wage(unsigned od_wierzcholka, unsigned do_wierzcholka) c
 		{
 			return pomocnicza->waga;
 		}
+
+		pomocnicza = pomocnicza->nastepny;
 	}
 }
 
