@@ -16,18 +16,30 @@
     <Filter Include="RNG">
       <UniqueIdentifier>{712e99fc-76f4-4891-a3cc-dba3e617247e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Testy">
+      <UniqueIdentifier>{42ef6f40-7db3-4a8c-8ef1-bfaf72497de1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Macierz.cpp">
       <Filter>Graf\Krawedzie\Macierz</Filter>
     </ClCompile>
-    <ClCompile Include="Lista.cpp" />
     <ClCompile Include="RNG.cpp">
       <Filter>RNG</Filter>
     </ClCompile>
-    <ClCompile Include="Krawedzie.cpp" />
-    <ClCompile Include="Dijkstra.cpp" />
+    <ClCompile Include="Krawedzie.cpp">
+      <Filter>Graf\Krawedzie</Filter>
+    </ClCompile>
+    <ClCompile Include="Lista.cpp">
+      <Filter>Graf\Krawedzie\Lista</Filter>
+    </ClCompile>
+    <ClCompile Include="Graf.cpp">
+      <Filter>Graf</Filter>
+    </ClCompile>
+    <ClCompile Include="Test.cpp">
+      <Filter>Testy</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Krawedzie.h">
@@ -39,8 +51,11 @@
     <ClInclude Include="RNG.h">
       <Filter>RNG</Filter>
     </ClInclude>
-    <ClInclude Include="Dijkstra.h">
+    <ClInclude Include="Graf.h">
       <Filter>Graf</Filter>
+    </ClInclude>
+    <ClInclude Include="Test.h">
+      <Filter>Testy</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

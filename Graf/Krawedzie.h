@@ -15,8 +15,6 @@ public:
 	unsigned pobierz_ilosc_wierzcholkow() const;
 	virtual void wyswietl_wagi() const = 0;
 	void losuj_wagi(double procent_mozliwych_wag);
-	unsigned wczytaj_z_pliku(std::string nazwa_pliku);
-
 protected:
 	unsigned wierzcholki_;
 };

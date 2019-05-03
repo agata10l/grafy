@@ -115,18 +115,20 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Dijkstra.cpp" />
+    <ClCompile Include="Graf.cpp" />
     <ClCompile Include="Krawedzie.cpp" />
     <ClCompile Include="Lista.cpp" />
     <ClCompile Include="Macierz.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="RNG.cpp" />
+    <ClCompile Include="Test.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Dijkstra.h" />
+    <ClInclude Include="Graf.h" />
     <ClInclude Include="Krawedzie.h" />
     <ClInclude Include="Macierz.h" />
     <ClInclude Include="RNG.h" />
+    <ClInclude Include="Test.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Lista.h" />

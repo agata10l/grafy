@@ -31,29 +31,3 @@ void Krawedzie::losuj_wagi(double procent_mozliwych_wag)
 	}
 }
 
-unsigned Krawedzie::wczytaj_z_pliku(std::string nazwa_pliku)
-{
-	std::fstream plik(nazwa_pliku, std::ios::in);
-
-	unsigned ilosc_krawedzi;
-	unsigned ilosc_wierzcholkow;
-	unsigned wierz_startowy;
-	unsigned wierz_pocz;
-	unsigned wierz_koncowy;
-	unsigned waga;
-
-	plik >> ilosc_krawedzi >> ilosc_wierzcholkow >> wierz_startowy;
-
-	while (plik.eof() == false)
-	{
-		plik >> wierz_pocz >> wierz_koncowy >> waga;
-
-		dodaj_krawedz(wierz_pocz, wierz_koncowy, waga);
-	}
-
-	plik.close();
-
-	return wierz_startowy;
-}
-
-
