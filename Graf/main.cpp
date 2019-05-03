@@ -12,7 +12,7 @@ double PROCENT_WYPELNIENIA[] = { 0.25, 0.50, 0.75, 1 };
 unsigned ILOSC_TESTOW = 100;
 
 //Krawedzie* wczytaj(string nazwa_pliku)
-//{
+//{a
 //	std::fstream plik(nazwa_pliku, std::ios::in);
 //
 //	unsigned ilosc_krawedzi;
